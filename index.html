@@ -30,54 +30,54 @@ class: center, middle
 Data Encryption Standard
 資料加密標準
 
-----
+---
 
 1970年代
 美國的NBS（國家標準局，現在的NIST）
 向大眾徵求一般資料的加密標準
 
-----
+---
 
 最後它們採用了IBM提出的方案
 然後把它拿回去改
 就有了現在的DES
 
-----
+---
 
 ![image](https://hackmd.io/_uploads/rknarhBSC.png)
 [from 粘添壽教授的簡報](https://www.tsnien.idv.tw/Security_WebBook/chap2/2-8%20DES%20%E5%AF%86%E7%A2%BC%E7%B3%BB%E7%B5%B1.html) 
 
-----
+---
 
 ![image](https://hackmd.io/_uploads/SJXLU3Hr0.png)
 
-----
+---
 
 你們現在可能會有一個疑問
 為啥明文是32bit
 但金鑰是48bit
 
-----
+---
 
 這是F裡面
 ![image](https://hackmd.io/_uploads/S1U3w2SSC.png)
 [from](https://ithelp.ithome.com.tw/m/articles/10266443)
 
-----
+---
 
 ![image](https://hackmd.io/_uploads/Sy4V9hBH0.png)
 
-----
+---
 
 s盒
 ![image](https://hackmd.io/_uploads/rJkIq3rBA.png)
 
-----
+---
 
 p盒
 ![image](https://hackmd.io/_uploads/SkiUq3rrR.png)
 
-----
+---
 
 因為他要跑16輪
 所以目前已知可以加速破解的方法
@@ -85,39 +85,39 @@ p盒
 需要的明文都太多了
 所以在當時他是十分安全的
 
-----
+---
 
 但現在(2008)暴力破解用時已經可以縮小到
 ## 一天內
 所以單次的DES現已不在使用
 
-----
+---
 
 他們提出了一個暫時的方案
 3DES
 ~~這概念和保險櫃上3個鎖有87\%像~~
 
-----
+---
 
 比較特別的是
 3DES的步驟是
 加解加or解加解
 中間是反的
 
-----
+---
 
 當然
 這個方案最後被新的AES取代
 Advanced Encryption Standard
 並沿用至今
 
-----
+---
 
 AES簡單來說就是DES的升級版
 密鑰高達256bit
 可以有效防止暴力破解(目前啦)
 
-----
+---
 
 詳細的算法會用到一點酷酷的線代
 但還是用到了滿滿的xor
